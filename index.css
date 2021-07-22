@@ -1,0 +1,110 @@
+
+nav a{
+    color:black;
+    margin: 20px;
+    text-decoration:none;
+    font-weight: bold;
+    font-family: 'poppins',sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+}
+*{
+    margin:0px;
+    padding: 0px;
+    
+
+}
+nav{
+    display: flex;
+    flex-flow: row-reverse;
+    background-color: lightgray;
+}
+
+nav a:hover{
+    color:blue;
+
+}
+.container{
+margin-top: 200px;
+text-align: center;
+
+
+
+
+}
+.g-img{
+    width: 300px;
+    height:100px;
+    
+
+}
+.g-mic{
+    position: relative;
+    height:20px;
+    margin-right:5px;
+    margin-top: 8px;
+    padding-left: 5px;
+
+}
+.s-icon{
+    width: 17px;
+    height: 17px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.search{
+    width:640px;
+    margin: 0 auto;
+    border:1px solid gray;
+    border-radius: 50px;
+}
+.search-bar{
+    width: 530px;
+    height: 23px;
+    border: none;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    margin-left: 5px;
+    outline: none;
+
+    
+}
+
+.btn-container{
+    margin-top:1%;
+}
+
+.search-btn{
+    height: 40px;
+    letter-spacing: 0.5px;
+    border:none;
+    color: black;
+    background:lightgray;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search-btn:hover{
+    color:white;
+    border:1px solid darkgray;
+    background: darkgray;
+}
+.search-btn2{
+    height: 40px;
+    margin: 15px;
+
+    letter-spacing: 0.5px;
+ border:none;
+    color: black;
+    background:lightgray;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search-btn2:hover{
+    color:white;
+    border:1px solid darkgray;
+    background: darkgray;
+}
+@media(min-width)
